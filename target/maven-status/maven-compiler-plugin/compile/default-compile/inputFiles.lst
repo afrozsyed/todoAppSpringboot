@@ -1,0 +1,16 @@
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\controllers\TasksController.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\controllers\UserController.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\dto\TaskDto.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\dto\UserDto.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\entities\Category.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\entities\Tasks.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\entities\User.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\exceptions\ResourceNotFoundException.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\mappers\TaskMapper.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\repositories\CategoryRepository.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\repositories\TasksRepository.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\repositories\UserRepository.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\services\TaskService.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\TodoAppApplication.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\utils\ApiResponse.java
+C:\Users\safro\SpringBootPractice\todoApp\todoApp\src\main\java\com\testingProject\todoApp\utils\GlobalExceptionHandler.java
