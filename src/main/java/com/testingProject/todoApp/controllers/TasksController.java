@@ -1,8 +1,10 @@
 package com.testingProject.todoApp.controllers;
 
+import com.testingProject.todoApp.dto.PostsResponse;
 import com.testingProject.todoApp.dto.TaskDto;
 import com.testingProject.todoApp.entities.Tasks;
 import com.testingProject.todoApp.services.TaskService;
+import com.testingProject.todoApp.services.TestApiService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +19,7 @@ import java.util.List;
 public class TasksController {
 
     private final TaskService taskService;
+    private final TestApiService testApiService;
 
     @PostMapping("/add")
     public ResponseEntity<?> createTask(@Valid @RequestBody TaskDto task) {
@@ -48,5 +51,16 @@ public class TasksController {
     public ResponseEntity<Void> deleteTask(@PathVariable Long id) {
         taskService.deleteTask(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping("callService")
+    public ResponseEntity<?> callServiceForTest(){
+//        List<PostsResponse> postsFromApi = testApiService.getPostsFromApi();
+        return ResponseEntity.ok(testApiService.getPostsFromApi());
+    }
+
+    @GetMapping("callService/{id}")
+    public ResponseEntity<?> callServiceForTestById(@PathVariable int id){
+        return ResponseEntity.ok(testApiService.getPostsFromApiByUserId(id));
     }
 }
